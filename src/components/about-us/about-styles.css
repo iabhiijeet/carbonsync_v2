@@ -1807,9 +1807,8 @@
 }
 
 .mentors-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .mentor-card {
@@ -1876,8 +1875,3 @@
   color: #94a3b8;
 }
 
-@media (max-width: 768px) {
-  .mentors-grid {
-    grid-template-columns: 1fr;
-  }
-}
